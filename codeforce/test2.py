@@ -14,7 +14,6 @@ def sol(s):
     for i, j in dic.items():
         ans+=j*(j+1)//2
     return ans
-
-s = 'abcbacbabbaccad'
-print(sol(s))
-print(generate(s))
+s = 'abcbaccc'
+# print(sol(s))
+print(sorted(generate(s)))
